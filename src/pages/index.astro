@@ -1,5 +1,11 @@
 ---
-
+const clientName = 'Polytechnic Pros';
+const theCurrentYear = new Date().getFullYear();
+const mascot = {
+    name : 'Victor E. Eagle',
+    age : 100,
+};
+const emojiSet = ['🍔', '🌭', '🍟', '🍕', '🍦'];
 ---
 
 <html lang="en">
@@ -8,13 +14,27 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>My Site</title>
+		<title>{clientName}</title>
 	</head>
 	<body>
 
 		<a href="/">Home</a>
 		<a href="/about/">About</a>
 
-		<h1>My Site</h1>
+		<h1>{clientName}</h1>
+
+		<p>Eastern Washington University is now called {clientName}. We changed our name in {theCurrentYear -3}!</p>
+
+		<img src="" alt={clientName}>
+
+		
+		<h2>Current Mascot:</h2>
+		<h4>{mascot.name} is {mascot.age} years old! Wow!</h4>
+		
+		<h2>Free Food for New Students:</h2>
+		
+		<ul>{ emojiSet.map( emoji => <li> {emoji} </li> ) }</ul>
+
+		<footer>Copyright {theCurrentYear}</footer>
 	</body>
 </html>
