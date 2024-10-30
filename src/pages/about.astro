@@ -1,5 +1,11 @@
 ---
-
+const clientName = 'Polytechnic Pros';
+const theCurrentYear = new Date().getFullYear();
+const mascot = {
+    name : 'Victor E. Eagle',
+    age : 100,
+};
+const emojiSet = ['🍔', '🌭', '🍟', '🍕', '🍦'];
 ---
 
 <html lang="en">
@@ -8,13 +14,13 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>My Site: About</title>
+		<title>{clientName}: About</title>
 	</head>
 	<body>
 
         <a href="/">Home</a>
         <a href="/about/">About</a>
 
-		<h1>My Site: About</h1>
+		<h1>{clientName}: About</h1>
 	</body>
 </html>
