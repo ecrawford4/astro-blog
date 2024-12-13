@@ -8,13 +8,13 @@ image:
     alt: 'Post Thumbnail'
 tags: ["astro","blog","test"]
 ---
-# Title
+# My First Blog Post
 
-Published on: 2024-12-13
+*Published on: 2024-12-13*
 
-Welcome to my blog! I will update this blog with various stories pertaining to my computer science adventures, or stories from my personal life in general. 
+Welcome to my blog! I will update this blog with various stories pertaining to my computer science adventures, or stories from my personal life in general.
 
-This post is a proof-of-concept; it contains no substantive content, but it helps to demonstrate the style of the blog
+This post is a proof-of-concept; it contains no substantive content, but it helps to demonstrate the style of the blog.
 
 ## Lorem Ipsum
 
