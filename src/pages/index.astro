@@ -7,15 +7,32 @@ const pageTitle = "ethan's blog";
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../../public/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../public/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../../public/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../../public/site.webmanifest" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
   <body>
-    <a href="/">Blog</a>
-    <a href="/about/">About</a>
-	<a href="https://www.linkedin.com/in/ethan-crawford-791038331/">linkedin</a>
+    <a href="/">blog</a>
+    <a href="/about/">about</a>
+    <a href="https://www.linkedin.com/in/ethan-crawford-791038331/">linkedin</a>
     <a href="https://github.com/ecrawford4">github</a>
     <a href="https://x.com/ecrawfordme">x</a>
     <a href="https://mastodon.social/@ecrawfordme">mastodon</a>
@@ -23,13 +40,12 @@ const pageTitle = "ethan's blog";
     <a href="https://ecrawford4.substack.com/">substack</a>
     <a href="https://www.keybr.com/profile/r59aauz">keybr</a>
 
-
     <h1>{pageTitle}</h1>
     <h2>
       <a href="src/pages/posts/post-1.md">my first post</a>
     </h2>
-	<footer>
-		<p>&copy; 2024 Ethan Crawford. <br />All rights reserved.</p>
-	  </footer>
+    <footer>
+      <p>&copy; 2024 Ethan Crawford. <br />All rights reserved.</p>
+    </footer>
   </body>
 </html>
