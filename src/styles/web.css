@@ -1,14 +1,16 @@
 html {
-  background-color: #213952;
+    background-color: #071a2e;
   font-family: "Courier New", Courier, monospace;
 }
 
 body {
+  background-color: #213952;
   margin: 0 auto;
   width: 100%;
   max-width: 80ch;
   padding: 1rem;
-  line-height: 1.5;
+min-height: 100vh;
+line-height: 1.5;
 }
 
 * {
@@ -28,6 +30,14 @@ h2 {
   font-size: 2rem;
   text-align: right;
   border-top: 1px solid #c9c9c9;
+}
+
+h3 {
+  color: rgb(71, 184, 146);
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  text-align: right;
+  border-bottom: 1px solid #c9c9c9;
 }
 
 a {
@@ -63,16 +73,24 @@ p {
   border-right: 1px solid #c9c9c9;
 }
 
+article {
+    margin-bottom: 6rem;
+}
+
 footer {
-  color: #9cc99c;
-  text-align: center;
-  border-top: 1px solid #c9c9c9;
-  border-bottom: 3px solid #c9c9c9;
-  margin-top: 1rem;
-  position: absolute;
-  bottom: 0;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 80ch;
-  line-height: 1.5;
+    padding: 0;
+    margin: 0 auto;
+    border: 0;
+    color: #9cc99c;
+    text-align: center;
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 3px solid #c9c9c9;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 80ch;
+    line-height: 1.5;
+    background-color: #213952;
 }
