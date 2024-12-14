@@ -1,6 +1,6 @@
 ---
 import "../styles/web.css";
-import { frontmatter } from "../pages/posts/post-1.md";
+const frontmatter = Astro.props.frontmatter;
 
 const { title, pubDate, author, description } = frontmatter;
 ---
